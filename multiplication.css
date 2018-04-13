@@ -1,0 +1,56 @@
+.input-fiels > label{
+    position: relative;
+}
+.dsp{
+    display: flex;
+    justify-content: space-around;
+}
+body{
+    background-color: darkgrey;
+}
+
+[type="checkbox"] + span:not(.lever) {
+    color : dimgrey;    
+    font-size: 20px;
+    line-height: 20px;
+    
+}
+.select-wrapper input.select-dropdown {
+    text-align: center;
+   
+}
+.dropdown-content li > a, .dropdown-content li > span {
+    color: dimgrey;
+    text-align: center;
+}
+.select-wrapper input.select-dropdown:focus{
+    border-bottom: 2px double dimgrey;
+}
+.select-wrapper input.select-dropdown{
+    border-bottom: 2px double dimgrey;
+    
+}
+button, input, optgroup, select, textarea {
+    font-family: cursive;
+    padding: 10px;
+    border-radius: 20px;
+    color: dimgray;
+    margin-top: 15px;
+}
+input[type=text]:not(.browser-default){
+    border-bottom: double 5px dimgrey;
+    text-align: center;
+}
+h2{
+    font-family: cursive;
+    font-size: 3em;
+    color: black;
+    letter-spacing: 10px;
+    margin-bottom: 90px;
+    
+}
+html{
+    font-family: cursive;
+    font-size: 1em;
+    text-align: center;
+}
